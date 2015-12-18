@@ -32,11 +32,13 @@ namespace infomationPublicsys
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Enabled = false;
-            new YaoJiaForm().Show();
+            //new YaoJiaForm().Show();
+            new DoctorInstruction().Show();
         }
 
         private void Baseform_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Minimized; 
             try
             {
                 Program.WriteLog("=======>>进入Baseform页面");

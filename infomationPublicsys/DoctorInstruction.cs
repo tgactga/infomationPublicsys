@@ -15,5 +15,16 @@ namespace infomationPublicsys
         {
             InitializeComponent();
         }
+
+        private void DoctorInstruction_Load(object sender, EventArgs e)
+        {
+            Program.WriteLog("进入医生说明界面");
+           // this.pictureBox1.ImageLocation = "@D:\sch\doctor\100043.jpg";
+            this.pictureBox1.Image=Image.FromFile("D:\\sch\\doctor\\100043.jpg");
+
+            this.pictureBox2.Image = Image.FromFile("D:\\sch\\doctor\\100232.jpg");
+
+
+        }
     }
 }

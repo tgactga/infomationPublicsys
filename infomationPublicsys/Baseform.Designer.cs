@@ -50,6 +50,7 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Name = "Baseform";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.ResumeLayout(false);
 
         }
